@@ -17,6 +17,7 @@
   border-bottom-right-radius: 12px;
   flex-shrink: 0;
   position: sticky;
+  top: 0;
 }
 
 .sidebar-nav a {
@@ -26,7 +27,6 @@
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
-  transition: opacity 0.2s;
   display: flex;
   flex-direction: column; 
   padding-bottom: 40px;
@@ -89,6 +89,31 @@
 
 
 
+
+/* animation */
+@keyframes wave-animation {
+    0% { transform: rotate(0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate(0.0deg) }
+  100% { transform: rotate(0.0deg) }
+}
+
+
+
+      .wave {
+  display: inline-block;
+  animation: wave-animation 2.5s infinite;
+  transform-origin: 70% 70%; 
+}
+
+
+
+
+
 /* projects */
 
 a img {
@@ -109,22 +134,11 @@ i {
 padding: 20px;
 }
 
-/* animation */
-@keyframes wave-animation {
-    0% { transform: rotate(0.0deg) }
-   10% { transform: rotate(14.0deg) }
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate(0.0deg) }
-  100% { transform: rotate(0.0deg) }
-}
-.wave {
-  display: inline-block;
-  animation: wave-animation 2.5s infinite;
-  transform-origin: 70% 70%; 
-}
+
+
+
+
+
 
 
 
