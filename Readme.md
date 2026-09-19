@@ -38,7 +38,7 @@ View Live Website (https://alkayyalirahaf.github.io/Project1-Portfolio/)
 
 # Tech Stack
 
-- HTML5: Used to structure the website using semantic elements such as <header>, <nav>,<main>, <section>, and <footer>.
+- HTML5: Used to structure the website using semantic elements such as '<header>, <nav>,<main>, <section>, and <footer>'.
 
 - CSS3: Used for styling, Flexbox layouts, hover effects, and responsive design with media queries.
 
