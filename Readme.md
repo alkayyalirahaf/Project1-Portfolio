@@ -6,7 +6,7 @@ A responsive personal portfolio website designed to showcase web development pro
 
 # Live Demo
 
-View Live Website
+View Live Website (https://alkayyalirahaf.github.io/Project1-Portfolio/)
 
 # Screenshots
 - home
