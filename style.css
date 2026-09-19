@@ -55,6 +55,7 @@ section {
 
 .main-content {
     max-width: 50%;
+    animation: fadeInLeft 1s ease;
 }
 
 .main-img img {
@@ -62,8 +63,32 @@ section {
     width: 250px;
     border-radius: 50%;
     border: 2px solid #2563eb;
+    animation: fadeInRight 1s ease;
 }
 
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 
 .main h2 {
