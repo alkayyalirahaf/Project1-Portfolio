@@ -1,30 +1,48 @@
+# Personal Portfolio Website
 
-# Personal Portfolio Website 
+A responsive personal portfolio website designed to showcase web development projects, technical skills, and contact details. Built using HTML5 and CSS3, with a focus on clean structure, modern styling, and responsive design across different screen sizes.
 
-A responsive personal portfolio website designed to showcase web development projects, technical skills, and contact details. Built exclusively with **HTML5** and **CSS**, focusing on clean semantic structure, custom modern styling, and full responsiveness across all screen sizes.
+# Demo & Screenshots
 
-## Demo & Screenshots
-# <img width="954" height="499" alt="home" src="https://github.com/user-attachments/assets/4803062c-927b-4b89-b095-b72209a1d610" />
-# <img width="953" height="494" alt="projects" src="https://github.com/user-attachments/assets/b808ed00-7406-4393-9cc1-d099de9b2c6e" />
+# Live Demo
 
-# <img width="949" height="490" alt="skills" src="https://github.com/user-attachments/assets/185c5666-38ea-4dc3-bbfa-cdd91769bc7c" />
+View Live Website
 
-# <img width="956" height="499" alt="contact" src="https://github.com/user-attachments/assets/c320b665-a1ef-413c-97f5-2e3c6e5900a8" />
-
+# Screenshots
 
 
+# Features
 
-## Features
+- Fully Responsive: Media queries tailored for mobile, tablet, and desktop screens.
 
- # Fully Responsive: Custom media queries tailored for mobile, tablet, and desktop viewports.
- # Navigation Bar: Built from scratch with smooth navigation links to main sections.
- # Hero Section:** Personal introduction featuring a background image with optimized text readability.
- # Skills Section:Technical qualifications and languages highlighted.
- # Projects Section: Showcase of completed projects with direct image links to GitHub repositories.
-# Footer & Contact Form: Clean contact area with social links and a message form.
+- Navigation Bar: Smooth navigation links to the main sections of the website.
+
+- Hero Section: Personal introduction with a profile image and social media links.
+
+- Skills Section: Displays technical skills and programming languages.
+
+- Projects Section: Showcases selected projects with preview images and links to their GitHub repositories.
+
+- Contact Section: Includes contact information, social links, and a contact form.
+
+- Footer: Includes social media links and copyright information.
+
 # Tech Stack
-# HTML5: Pure semantic tags (`<header>`, `<nav>`, `<section>`, `<article>`, `<footer>`).
-# CSS3: Custom styles, layout structuring using Flexbox and Grid, and CSS Media Queries for adaptive layout.
-# UI/UX Design (Figma)
 
-## You can check the interactive Figma wireframe and mockup [here](https://www.figma.com/design/aoB7qI65Diq2dGKWVyhtWh/%F0%9F%8E%A8-Personal-Portfolio-Template--Community-?node-id=216-6&t=Xs3SUoxdshwWpdhT-1).
+- HTML5: Used to structure the website using semantic elements such as <header>, <nav>,<main>, <section>, and <footer>.
+
+- CSS3: Used for styling, Flexbox layouts, hover effects, and responsive design with media queries.
+
+- Font Awesome: Used for icons.
+
+- Figma: Used to create the UI/UX wireframe and mockup.
+
+# Design
+
+You can check the interactive Figma wireframe and mockup here (https://www.figma.com/design/sq9cU2x30UlvXU5lINtX3u/Rahaf?m=dev&t=8SgLc41YNdZr7dGM-1).
+
+
+Author
+
+Rahaf Alkayyali
+
