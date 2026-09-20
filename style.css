@@ -6,6 +6,17 @@
     font-family: 'Poppins', 'Segoe UI', sans-serif; 
 }
 
+.menu-btn{
+    display: none;
+}
+
+
+#menu-toggle{
+    display: none;
+}
+
+
+
 header {
     background-color: #ffffff; 
     width: 100%;
@@ -35,7 +46,6 @@ header {
     padding-left: 40px;
     transition: 0.3s ease;
 }
-
 .navigation a:hover {
     color: #2563eb; 
 }
@@ -352,6 +362,25 @@ section {
 
 @media (max-width: 768px) {
 
+    .menu-btn{
+        display: block;
+        font-size:1.5em;
+        cursor: pointer;
+    }
+
+    .navigation{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top:60px;
+        right:20px;
+        background-color: white;
+        padding: 20px;
+    }
+
+    #menu-toggle:checked ~ .navigation{
+        display:flex;
+    }
     header {
         padding: 10px 20px;
     }
