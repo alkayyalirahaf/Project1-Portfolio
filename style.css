@@ -6,6 +6,63 @@
     font-family: 'Poppins', 'Segoe UI', sans-serif; 
 }
 
+
+/* Dark Mode */
+#darkmode {
+    display: none;
+}
+
+.darkmode-btn {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+body:has(#darkmode:checked) {
+    background-color: #121212;
+    color: white;
+}
+
+
+body:has(#darkmode:checked) header {
+    background-color: #1e1e1e;
+}
+
+body:has(#darkmode:checked) .main {
+    background-color: #121212;
+}
+
+body:has(#darkmode:checked) .logo {
+    color: white;
+}
+
+body:has(#darkmode:checked) .navigation a {
+    color: #e5e7eb;
+}
+
+body:has(#darkmode:checked) .contact {
+    background-color: #1e1e1e;
+}
+
+body:has(#darkmode:checked) .contact-form-box input,
+body:has(#darkmode:checked) .contact-form-box textarea {
+    background-color: #2a2a2a;
+    color: white;
+    border-color: #555;
+}
+
+body:has(#darkmode:checked) .contact-form-box input::placeholder,
+body:has(#darkmode:checked) .contact-form-box textarea::placeholder {
+    color: #aaa;
+}
+body:has(#darkmode:checked) .submit-btn {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
 .menu-btn{
     display: none;
 }
